@@ -5797,9 +5797,9 @@
 		)
 		(uuid "b12b2b22-adc2-48ce-b9f7-d895c121e036")
 	)
-	(text "TPS259472A\n5A efuse"
+	(text "TPS259472A\n1A efuse"
 		(exclude_from_sim no)
-		(at 27.94 106.68 0)
+		(at 27.94 108.204 0)
 		(effects
 			(font
 				(size 1.905 1.905)
