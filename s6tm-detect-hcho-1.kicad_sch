@@ -6789,6 +6789,10 @@
 		(uuid "fd713153-4295-4b8e-936e-92fddea2c462")
 	)
 	(no_connect
+		(at 234.95 77.47)
+		(uuid "02be6c03-94f5-452f-9c4f-963e9bbf5bbb")
+	)
+	(no_connect
 		(at 234.95 74.93)
 		(uuid "07605f28-b7e2-42c4-9e8a-e8a0343372f1")
 	)
@@ -6799,6 +6803,10 @@
 	(no_connect
 		(at 101.6 135.89)
 		(uuid "1eccb795-d808-4135-aa02-2113f42efab6")
+	)
+	(no_connect
+		(at 234.95 69.85)
+		(uuid "2d9235f8-48e2-40e7-980d-1e922c4d8184")
 	)
 	(no_connect
 		(at 199.39 82.55)
@@ -6829,6 +6837,10 @@
 		(uuid "8ef5d766-a9c1-4a57-b5ae-57cfa4b6e526")
 	)
 	(no_connect
+		(at 234.95 85.09)
+		(uuid "90aae376-4333-409a-b68c-7afb2cab7372")
+	)
+	(no_connect
 		(at 199.39 95.25)
 		(uuid "a1412b4b-2c44-4084-a6f0-9a0fd89889ab")
 	)
@@ -6839,6 +6851,10 @@
 	(no_connect
 		(at 199.39 107.95)
 		(uuid "b6bf779a-14af-4511-973e-3c21326bd415")
+	)
+	(no_connect
+		(at 234.95 80.01)
+		(uuid "c1f12b0d-1c12-42f0-a380-8b7db4fab58b")
 	)
 	(no_connect
 		(at 234.95 54.61)
@@ -7746,7 +7762,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 149.86) (xy 110.49 149.86)
+			(xy 111.76 149.86) (xy 106.68 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9826,6 +9842,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 67.31) (xy 241.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa323e9f-6d65-443d-92f6-dab17d712a4f")
+	)
+	(wire
+		(pts
 			(xy 142.24 83.82) (xy 142.24 85.09)
 		)
 		(stroke
@@ -9994,6 +10020,16 @@
 		)
 		(uuid "56024d86-9065-4ea1-8158-434d6abcef7e")
 	)
+	(label "ILM"
+		(at 241.3 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5627b96c-646f-416b-a53e-d342c63188bd")
+	)
 	(label "SWCLK"
 		(at 31.75 173.99 0)
 		(effects
@@ -10023,6 +10059,16 @@
 			(justify left bottom)
 		)
 		(uuid "63b86741-356a-484c-a95c-eec6911150c8")
+	)
+	(label "ILM"
+		(at 106.68 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "674656b7-d53d-4c6f-b640-1059c34e947f")
 	)
 	(label "SDA"
 		(at 44.45 45.72 180)
@@ -10193,17 +10239,6 @@
 			(justify left bottom)
 		)
 		(uuid "f7f6c44d-b38c-4341-ba86-a566b780cd73")
-	)
-	(hierarchical_label "ILM"
-		(shape output)
-		(at 110.49 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1681ab7-b925-4130-b154-522c4343d45d")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -11524,7 +11559,6 @@
 		)
 		(pin "16"
 			(uuid "ff99c083-626e-471c-9c8c-df6e6f1cfd29")
-			(alternate "ADC1_IN6")
 		)
 		(pin "9"
 			(uuid "ad668a0a-9769-4c99-9c7b-bba53be28ae5")
