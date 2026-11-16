@@ -6849,6 +6849,12 @@
 		(uuid "0f057c03-3023-45dc-8ddc-cd6e9cd4ea09")
 	)
 	(junction
+		(at 187.96 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11e3e6dd-058e-420f-8d3c-4284b2b7f6d0")
+	)
+	(junction
 		(at 171.45 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7015,6 +7021,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ed9ef0e-8330-4041-88b4-0e79fb14cee6")
+	)
+	(junction
+		(at 187.96 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f1f8f20-d6c7-4e9d-8b8e-2281ceeeddf1")
 	)
 	(junction
 		(at 229.87 27.94)
@@ -12096,7 +12108,6 @@
 		)
 		(pin "30"
 			(uuid "08e076be-72f2-41d5-82ee-afdefb10c07d")
-			(alternate "USART1_TX")
 		)
 		(pin "47"
 			(uuid "c8e60099-a777-4acd-806b-f98d507c9287")
@@ -12125,7 +12136,6 @@
 		)
 		(pin "31"
 			(uuid "561d8f79-780c-4163-a997-67664c74e904")
-			(alternate "USART1_RX")
 		)
 		(pin "41"
 			(uuid "b2e6eeb7-d25a-4595-bf7c-9008731f3ac7")
@@ -19419,6 +19429,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "906f911b-6faf-4369-895f-a4a23e737ac8")
+		(property "Reference" "TP10"
+			(at 189.484 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 190.5 95.7579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 193.04 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc600e27-5ade-4713-9435-308eb7230855")
+		)
+		(instances
+			(project "s6tm-detect-hcho-1"
+				(path "/07bb767d-2e7d-4c90-b968-5865a002d3f8"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 123.19 123.19 180)
 		(unit 1)
@@ -21670,6 +21759,85 @@
 			(project "s6tm-detect-hcho-1"
 				(path "/07bb767d-2e7d-4c90-b968-5865a002d3f8"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aedab029-102c-4ca2-9b55-282b7a3ce2e9")
+		(property "Reference" "TP11"
+			(at 188.976 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 185.42 102.3621 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 182.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "157a81fd-87f3-4edc-a9c6-7a290ae9c8fb")
+		)
+		(instances
+			(project "s6tm-detect-hcho-1"
+				(path "/07bb767d-2e7d-4c90-b968-5865a002d3f8"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
