@@ -6625,7 +6625,7 @@
 			(uuid "4c246ea2-1e8b-441e-8158-376baa6c306a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_PWSON-N6.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/HDC2080DMBR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6633,7 +6633,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
