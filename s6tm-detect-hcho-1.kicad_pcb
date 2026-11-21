@@ -9422,7 +9422,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "5aed064d-273b-4b4d-a5e0-da13f0a6a53f")
-		(at 103.295 100.954)
+		(at 131.5 104 180)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D1"
@@ -9472,7 +9472,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9485,7 +9485,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9498,7 +9498,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9511,7 +9511,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9547,24 +9547,14 @@
 			(uuid "307f1392-4ef7-4764-91b2-896930d5ef4a")
 		)
 		(fp_line
-			(start -0.86 -0.47)
-			(end 0.87 -0.47)
+			(start 0.87 0.47)
+			(end -0.86 0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1287b675-1839-4ba1-a98f-0a84d65ab04a")
-		)
-		(fp_line
-			(start -0.86 0.47)
-			(end -0.86 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8302010c-0329-4403-ab97-6fb9ec051430")
+			(uuid "54227b90-6c81-4560-881c-bf36456efa35")
 		)
 		(fp_line
 			(start 0.87 -0.47)
@@ -9577,54 +9567,34 @@
 			(uuid "2b0d8cba-f5e0-4585-a8e3-17131cf7d654")
 		)
 		(fp_line
-			(start 0.87 0.47)
-			(end -0.86 0.47)
+			(start -0.86 0.47)
+			(end -0.86 -0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "54227b90-6c81-4560-881c-bf36456efa35")
+			(uuid "8302010c-0329-4403-ab97-6fb9ec051430")
 		)
 		(fp_line
-			(start -0.56 -0.25)
-			(end 0.44 -0.25)
+			(start -0.86 -0.47)
+			(end 0.87 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1287b675-1839-4ba1-a98f-0a84d65ab04a")
+		)
+		(fp_line
+			(start 0.44 0.25)
+			(end -0.56 0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "52225cd8-7d6f-45c6-8c3b-1754edcabca2")
-		)
-		(fp_line
-			(start -0.56 0.25)
-			(end -0.56 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bd17afb6-1e45-4edf-add6-05802c53794a")
-		)
-		(fp_line
-			(start -0.46 0.25)
-			(end -0.46 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6314ff0a-07a1-4d8e-a062-c1f3dbd1b39d")
-		)
-		(fp_line
-			(start -0.36 0.25)
-			(end -0.36 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cb870326-05ab-44b0-a0d0-a12a1a677de2")
+			(uuid "829e92e4-2aff-4c94-ab66-715d09a15572")
 		)
 		(fp_line
 			(start 0.44 -0.25)
@@ -9637,14 +9607,44 @@
 			(uuid "c170cf49-998c-49f9-ac6e-4e24a6e0816d")
 		)
 		(fp_line
-			(start 0.44 0.25)
-			(end -0.56 0.25)
+			(start -0.36 0.25)
+			(end -0.36 -0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "829e92e4-2aff-4c94-ab66-715d09a15572")
+			(uuid "cb870326-05ab-44b0-a0d0-a12a1a677de2")
+		)
+		(fp_line
+			(start -0.46 0.25)
+			(end -0.46 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6314ff0a-07a1-4d8e-a062-c1f3dbd1b39d")
+		)
+		(fp_line
+			(start -0.56 0.25)
+			(end -0.56 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bd17afb6-1e45-4edf-add6-05802c53794a")
+		)
+		(fp_line
+			(start -0.56 -0.25)
+			(end 0.44 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "52225cd8-7d6f-45c6-8c3b-1754edcabca2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.06 0 0)
@@ -9658,7 +9658,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.425 0)
+			(at -0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9668,7 +9668,7 @@
 			(uuid "9544b817-e5cd-485d-a131-636fb51445ac")
 		)
 		(pad "2" smd roundrect
-			(at 0.425 0)
+			(at 0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9693,7 +9693,7 @@
 	(footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5aefcdc6-d724-45cf-a12e-57929e369514")
-		(at 108.71 102.484)
+		(at 133.25 101.5 180)
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "J1"
@@ -9719,7 +9719,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9732,7 +9732,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9757,16 +9757,6 @@
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.905 1.27)
-			(end -1.905 0.635)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c6a2958d-a677-43f2-b603-d4b8d064018e")
-		)
-		(fp_line
 			(start -1.27 1.27)
 			(end -1.905 1.27)
 			(stroke
@@ -9777,24 +9767,24 @@
 			(uuid "a09df996-ebac-4b1d-b24c-4f85544aa7aa")
 		)
 		(fp_line
-			(start -3.5 -2)
-			(end 3.5 -2)
+			(start -1.905 1.27)
+			(end -1.905 0.635)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "a7bc6227-ba94-495b-a26f-adeb4dc42fc9")
+			(layer "F.SilkS")
+			(uuid "c6a2958d-a677-43f2-b603-d4b8d064018e")
 		)
 		(fp_line
-			(start -3.5 2)
-			(end -3.5 -2)
+			(start 3.5 2)
+			(end -3.5 2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "efe50dfd-e5be-42fb-9559-eb9d075a657d")
+			(uuid "93f6d2c5-b69b-4214-8d38-50500e5f090e")
 		)
 		(fp_line
 			(start 3.5 -2)
@@ -9807,14 +9797,24 @@
 			(uuid "30e77dbd-0d20-4582-907a-87ea76d88ea0")
 		)
 		(fp_line
-			(start 3.5 2)
-			(end -3.5 2)
+			(start -3.5 2)
+			(end -3.5 -2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "93f6d2c5-b69b-4214-8d38-50500e5f090e")
+			(uuid "efe50dfd-e5be-42fb-9559-eb9d075a657d")
+		)
+		(fp_line
+			(start -3.5 -2)
+			(end 3.5 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a7bc6227-ba94-495b-a26f-adeb4dc42fc9")
 		)
 		(fp_text user "KEEPOUT"
 			(at 0 0 0)
@@ -9839,28 +9839,28 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at -2.54 0)
+			(at -2.54 0 180)
 			(size 0.9906 0.9906)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(uuid "5d5d9bee-2674-4554-8d1e-1fa1a426bd94")
 		)
 		(pad "" np_thru_hole circle
-			(at 2.54 -1.016)
+			(at 2.54 -1.016 180)
 			(size 0.9906 0.9906)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(uuid "7df04a27-fb0e-4fa2-b93b-13b9912e6cff")
 		)
 		(pad "" np_thru_hole circle
-			(at 2.54 1.016)
+			(at 2.54 1.016 180)
 			(size 0.9906 0.9906)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(uuid "105297b2-b187-40a2-9afe-0ced197c6c06")
 		)
 		(pad "1" connect circle
-			(at -1.27 0.635)
+			(at -1.27 0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "+3V3")
@@ -9869,7 +9869,7 @@
 			(uuid "23ba28c0-513b-48ec-be1b-719f059b3daa")
 		)
 		(pad "2" connect circle
-			(at -1.27 -0.635)
+			(at -1.27 -0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/SWDIO")
@@ -9878,7 +9878,7 @@
 			(uuid "d4566adf-bda0-4aef-a7b7-103fa37e13cc")
 		)
 		(pad "3" connect circle
-			(at 0 0.635)
+			(at 0 0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/NRST")
@@ -9887,7 +9887,7 @@
 			(uuid "7d080098-2951-4fa2-8371-10e1b4c36d97")
 		)
 		(pad "4" connect circle
-			(at 0 -0.635)
+			(at 0 -0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/SWCLK")
@@ -9896,7 +9896,7 @@
 			(uuid "770c690e-9bd9-4aba-afb1-505491892627")
 		)
 		(pad "5" connect circle
-			(at 1.27 0.635)
+			(at 1.27 0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
@@ -9905,7 +9905,7 @@
 			(uuid "ab6fb4ef-bb27-4c5b-9dad-bf5a618499aa")
 		)
 		(pad "6" connect circle
-			(at 1.27 -0.635)
+			(at 1.27 -0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/SWO")
@@ -9939,7 +9939,7 @@
 			)
 			(polygon
 				(pts
-					(xy 109.98 101.849) (xy 107.44 101.849) (xy 107.44 103.119) (xy 109.98 103.119)
+					(xy 131.98 102.135) (xy 134.52 102.135) (xy 134.52 100.865) (xy 131.98 100.865)
 				)
 			)
 		)
@@ -12405,7 +12405,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "6f91544a-c493-4ee9-865f-c32103576ade")
-		(at 103.295 104.934)
+		(at 133.5 104)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
@@ -15311,7 +15311,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "7d5fc285-107b-4be7-8019-a74e0b25e7cd")
-		(at 103.295 106.924)
+		(at 132.75 99 180)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D4"
@@ -15361,7 +15361,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15374,7 +15374,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15387,7 +15387,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15400,7 +15400,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15436,24 +15436,14 @@
 			(uuid "73bdee1c-f9bd-4378-a8af-2816ed3bb7c3")
 		)
 		(fp_line
-			(start -0.86 -0.47)
-			(end 0.87 -0.47)
+			(start 0.87 0.47)
+			(end -0.86 0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a6fae322-f253-44c8-a09a-c24817d5c842")
-		)
-		(fp_line
-			(start -0.86 0.47)
-			(end -0.86 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c54983bb-4849-439f-a804-c7581f59a06d")
+			(uuid "30c45271-e4e5-4814-bb8f-1c5bbbbf7096")
 		)
 		(fp_line
 			(start 0.87 -0.47)
@@ -15466,54 +15456,34 @@
 			(uuid "8c1c234d-5846-4368-a894-773fd061e52b")
 		)
 		(fp_line
-			(start 0.87 0.47)
-			(end -0.86 0.47)
+			(start -0.86 0.47)
+			(end -0.86 -0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "30c45271-e4e5-4814-bb8f-1c5bbbbf7096")
+			(uuid "c54983bb-4849-439f-a804-c7581f59a06d")
 		)
 		(fp_line
-			(start -0.56 -0.25)
-			(end 0.44 -0.25)
+			(start -0.86 -0.47)
+			(end 0.87 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6fae322-f253-44c8-a09a-c24817d5c842")
+		)
+		(fp_line
+			(start 0.44 0.25)
+			(end -0.56 0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "49a8da96-1757-4b5b-85af-ea4ebab0c593")
-		)
-		(fp_line
-			(start -0.56 0.25)
-			(end -0.56 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "55ffc1ad-5ccf-4dac-82fb-6b5ef28ced7c")
-		)
-		(fp_line
-			(start -0.46 0.25)
-			(end -0.46 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e065d883-ebba-483c-94bc-50d55c57ae9c")
-		)
-		(fp_line
-			(start -0.36 0.25)
-			(end -0.36 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d5848d20-c7b9-4141-89cd-8ff4e763805b")
+			(uuid "c06cb27f-e022-4a85-aa93-64512b9f6af5")
 		)
 		(fp_line
 			(start 0.44 -0.25)
@@ -15526,14 +15496,44 @@
 			(uuid "13c5e5ce-57d1-4205-9938-3d9fb12e8e67")
 		)
 		(fp_line
-			(start 0.44 0.25)
-			(end -0.56 0.25)
+			(start -0.36 0.25)
+			(end -0.36 -0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c06cb27f-e022-4a85-aa93-64512b9f6af5")
+			(uuid "d5848d20-c7b9-4141-89cd-8ff4e763805b")
+		)
+		(fp_line
+			(start -0.46 0.25)
+			(end -0.46 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e065d883-ebba-483c-94bc-50d55c57ae9c")
+		)
+		(fp_line
+			(start -0.56 0.25)
+			(end -0.56 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "55ffc1ad-5ccf-4dac-82fb-6b5ef28ced7c")
+		)
+		(fp_line
+			(start -0.56 -0.25)
+			(end 0.44 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "49a8da96-1757-4b5b-85af-ea4ebab0c593")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.06 0 0)
@@ -15547,7 +15547,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.425 0)
+			(at -0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15557,7 +15557,7 @@
 			(uuid "619957bb-f8b7-40c9-be54-79bbdeffe3d8")
 		)
 		(pad "2" smd roundrect
-			(at 0.425 0)
+			(at 0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22311,7 +22311,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "cad08a06-ab08-4b5d-82f6-40db23bc3e53")
-		(at 103.295 108.914)
+		(at 135 99)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D5"
@@ -22818,7 +22818,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "cd99af54-5caa-411b-940c-9e1d0a5210b3")
-		(at 103.295 102.944)
+		(at 135.5 104)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D2"
