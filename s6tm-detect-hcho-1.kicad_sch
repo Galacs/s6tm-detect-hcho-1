@@ -25902,7 +25902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Module_s6tm-scd4x-mod-1"
 			(at 48.26 137.16 0)
 			(hide yes)
 			(show_name no)
