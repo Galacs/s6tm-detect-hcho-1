@@ -28017,7 +28017,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C19077544"
+		(property "JLCPCB Part #" "C19077561"
 			(at 146.05 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -28039,7 +28039,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "SMAJ26CA"
+		(property "Manufacturer Part Number" "SMBJ6.0CA"
 			(at 146.05 187.96 90)
 			(hide yes)
 			(show_name no)
